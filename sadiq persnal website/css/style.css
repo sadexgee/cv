@@ -1,0 +1,127 @@
+
+:root {
+  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Montserrat", sans-serif;
+  --nav-font: "Lato", sans-serif;
+}
+
+
+
+/* Nav Menu Colors */
+:root {
+  --nav-color: #3a3939;
+  --nav-hover-color: #e84545;
+  --nav-dropdown-color: #3a3939;
+  --nav-dropdown-hover-color: #e84545;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-mobile-background-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+ scroll-behavior: inherit;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+  .navmenu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navmenu li {
+    position: relative;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    color: var(--nav-color);
+    padding: 18px 15px;
+    font-size: 16px;
+    font-family: var(--nav-font);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
+
+  .navmenu li:last-child a {
+    padding-right: 0;
+  }
+
+  .navmenu li:hover>a,
+  .navmenu .active,
+  .navmenu .active:focus {
+    color: burlywood
+    
+  }
+  .header{
+    background-color: #a8def7;
+    shape-outside: -moz-linear-gradient(curve);
+  
+  }
+  body{
+    background-attachment: fixed;
+    background-color: rgb(172, 214, 238);
+  }
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    padding: auto;
+  }
+  body{
+    align-items: center;
+    padding-left: 2%;
+  }
+  h1,h2,h3,h4,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  /********************* ID selectors **********************/
+  
+
+/********************* class selectors **********************/
+.message{
+  align-items: center;
+  
+}
+.top{
+  padding-block: 3%;
+ }
+ .sadex{
+  align-content: end;
+}
+.last{
+  padding-left: 10%;
+  size: 100%;
+}
